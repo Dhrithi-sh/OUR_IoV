@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local credentials and downloaded dataset data
+dataset-cred
+*.parquet
+
+# Generated training and evaluation artifacts
+baseline_features.csv
+random_forest_baseline.joblib
+official_validation_predictions.csv
